@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-
+import Artflix from "./Descriptions/Artflix";
 import IGDrones from "./Descriptions/Delbird";
 import IITD from "./Descriptions/IITD";
 import NISTUNIVERSITY from "./Descriptions/NISTUNIVERSITY";
