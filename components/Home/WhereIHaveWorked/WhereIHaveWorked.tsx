@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
-import Artflix from "./Descriptions/Artflix";
-import Fantasia from "./Descriptions/Fantasia";
+
+import IGDrones from "./Descriptions/Delbird";
 import IITD from "./Descriptions/IITD";
 import NISTUNIVERSITY from "./Descriptions/NISTUNIVERSITY";
 import Orufy from "./Descriptions/Orufy";
@@ -21,10 +20,6 @@ export default function WhereIHaveWorked() {
         return <IGDrones />;
       case "Orufy":
         return <Orufy />;
-      case "Advanced Agro Management":
-        return <AdvancedAgroManagement />;
-      case "Fantasia":
-        return <Fantasia />;
       case "Artflix ":
         return <Artflix />;
     }
@@ -157,7 +152,7 @@ const CompaniesBar = (props) => {
             CompanyName="IG Drones"
             BarPosition={76}
             BarAvobePosition={257}
-            DescriptionJob="Delbird"
+            DescriptionJob="IG Drones"
             CompanyNameBackgroundColorGreen={[
               false,
               false,
