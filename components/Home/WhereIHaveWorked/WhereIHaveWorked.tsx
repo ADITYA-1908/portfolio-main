@@ -131,7 +131,7 @@ const CompaniesBar = (props) => {
             ]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="NIST University"
             BarPosition={32}
@@ -146,12 +146,12 @@ const CompaniesBar = (props) => {
               false,
             ]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="IG Drones"
-            BarPosition={76}
-            BarAvobePosition={257}
+            BarPosition={32}
+            BarAvobePosition={129}
             DescriptionJob="IG Drones"
             CompanyNameBackgroundColorGreen={[
               false,
@@ -166,8 +166,8 @@ const CompaniesBar = (props) => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="Orufy"
-            BarPosition={120}
-            BarAvobePosition={385}
+            BarPosition={76}
+            BarAvobePosition={257}
             DescriptionJob="Orufy"
             CompanyNameBackgroundColorGreen={[
               false,
@@ -182,8 +182,8 @@ const CompaniesBar = (props) => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
             CompanyName="Artflix"
-            BarPosition={164}
-            BarAvobePosition={513}
+            BarPosition={120}
+            BarAvobePosition={385}
             DescriptionJob="Artflix "
             CompanyNameBackgroundColorGreen={[
               false,
