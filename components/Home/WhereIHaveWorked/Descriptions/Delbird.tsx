@@ -3,16 +3,20 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Delbird() {
   const tasks = [
     {
-      text: "Developed a full-stack SaaS vendor website from scratch using React.js, JavaScript, Material-UI, and Node.js.",
-      keywords: ["SaaS", "React.js", "javascript", "Material-UI", "Node.js"],
+      text: "Collaborated on Project IG DRONE, integrating APIs to enhance functionality, utilizing React.js  for seamless data management.",
+      keywords: ["IG DRONE", "React.js", "APIs"],
     },
     {
-      text: "Integrated REST APIs for smooth data exchange and efficient back-end functionality.",
-      keywords: ["REST APIs","back-end"],
+      text: "Developed and optimized multiple features on the landing page of IG Drones, improving user interface and overall user experience.",
+      keywords: ["landing page"],
     },
     {
-      text: "Launched the live platform with a seamless user experience, combining dynamic front-end design and robust back-end.",
-      keywords: ["Launched","Front-end","back-end"],
+      text: "implified various components within the project, significantly reducing load time and enhancing performance for smoother user interactions.",
+      keywords: ["reducing load time"],
+    },
+    {
+      text: "Leveraged modern front-end development techniques to ensure responsive design, improved scalability, and efficient application workflow for IGDrones.",
+      keywords: ["responsive design", "improved scalability"],
     },
   ];
   return (
@@ -21,11 +25,13 @@ export default function Delbird() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-
-            Software Development Engineer Intern <span className="text-AAsecondary">@Full Stack</span>
+            Software Development Engineer Intern{" "}
+            <span className="text-AAsecondary">@Full Stack</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">January 2024 - March 2024</span>
+          <span className="font-mono text-xs text-gray-500">
+            January 2024 - March 2024
+          </span>
           {/* <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
@@ -44,7 +50,10 @@ export default function Delbird() {
                 <span
                   className="text-gray-500 sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
-                    __html: getTasksTextWithHighlightedKeyword(item.text, item.keywords),
+                    __html: getTasksTextWithHighlightedKeyword(
+                      item.text,
+                      item.keywords
+                    ),
                   }}
                 ></span>
               </div>
