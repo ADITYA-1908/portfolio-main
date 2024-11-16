@@ -106,7 +106,7 @@ export default function AboutMe(props) {
               </span>
             </div>
             <div className="font-Header tracking-wide flex flex-row space-x-16">
-              <div className="flex flex-row space-x-2 items-center">
+              <div className="flex flex-row space-x-1.9 items-center">
                 <div className="flex flex-col space-y-4 sm:text-base text-sm">
                   {technologies[0].map((tech, index) => {
                     return (
