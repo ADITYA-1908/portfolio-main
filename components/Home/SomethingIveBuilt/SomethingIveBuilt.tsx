@@ -440,11 +440,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Clerk</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/njrgourav11/Ansabyte-Technologies" />
-                <ExternalLink
-                  url={"https://ansabyte-technologies.vercel.app/"}
-                  router={router}
-                />
+                <GithubIcon link="" />
+                <ExternalLink url={""} router={router} />
               </div>
             </div>
           </div>
@@ -531,11 +528,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Typescript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/njrgourav11/nist.edu" /> */}
-                {/* <ExternalLink
-                  url={"https://nist-edu.vercel.app/"}
-                  router={router}
-                /> */}
+                <GithubIcon link="" />
+                {<ExternalLink url={""} router={router} />}
               </div>
             </div>
           </div>
