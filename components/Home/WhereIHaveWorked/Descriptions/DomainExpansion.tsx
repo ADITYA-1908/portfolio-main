@@ -1,19 +1,19 @@
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function NISTUNIVERSITY() {
+export default function DomainExpansion() {
   const tasks = [
     {
-      text: "Designed and developed a platform to enhance typing speed by tracking user progress and providing scores for speed and accuracy.",
-      keywords: ["accuracy", "speed"],
+      text: "Played a key role in developing a responsive SAAS platform by seamlessly integrating APIs and converting Figma designs into functional code, enhancing collaboration between clients and agencies.",
+      keywords: ["SAAS", "APIs", "Figma"],
     },
     {
-      text: "Utilized Next.js, Tailwind CSS, Framer Motion, and custom algorithms to deliver an engaging and responsive user experience.",
-      keywords: ["Next.js", "Tailwind CSS", "Framer Motion"],
+      text: "Improved the platform's usability and functionality, resulting in a 25% boost in user engagement.",
+      keywords: ["25%", "boost"],
     },
     {
-      text: "Implemented features to analyze and visualize typing performance, helping users improve accuracy and efficiency over time.",
-      keywords: ["time"],
+      text: "Utilized React.js and Bootstrap to upgrade static web pages, ensuring they were responsive and adaptable to various devices.",
+      keywords: ["React.js", "Bootstrap", "responsive"],
     },
   ];
 
@@ -23,15 +23,20 @@ export default function NISTUNIVERSITY() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Summer Internship <span className="text-AAsecondary">@NextJS</span>
+            ReactJS Developer Intern{" "}
+            <span className="text-AAsecondary">@ReactJS</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">June 2024</span>
-          {/* <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
-           // set on click to open the website
-           onClick={() => window.open("https://www.trouvetavoie.io/", "_blank")}
+          <span className="font-mono text-xs text-gray-500">
+            Jan 2025 - Present
+          </span>
+          {/* <span
+            className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+            style={{ fontSize: "0.6rem" }}
+            // set on click to open the website
+            onClick={() => window.open("https://www.ens.vision/", "_blank")}
           >
-            www.trouvetavoie.io
+            www.ens.vision
           </span> */}
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

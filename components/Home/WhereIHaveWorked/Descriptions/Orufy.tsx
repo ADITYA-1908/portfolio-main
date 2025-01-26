@@ -4,16 +4,27 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Orufy() {
   const tasks = [
     {
-      text: "Developed key features for the Orufy project by integrating REST APIs and building dynamic web pages using React.js.",
-      keywords: [" REST APIs", "React.js", "Orufy"],
+      text: "Built a vendor website from scratch, handling 100% of the front-end and back-end implementation, ensuring seamless functionality.",
+      keywords: ["100%"],
     },
     {
-      text: "Optimized loading time by 15%, improving overall project performance.",
-      keywords: ["Optimized loading", "15%", "performance"],
+      text: "Integrated REST APIs (20% of the work) to enable efficient communication between the front-end and back-end.",
+      keywords: [" REST APIs", "20%"],
     },
     {
-      text: "Implemented dynamic tables and CRUD applications, enhancing data management and user experience.",
-      keywords: ["CRUD applications", "dynamic tables"],
+      text: "Developed a full-stack web application using React.js,Material-UI, Redux.js, and Node.js, contributing 60% to front-end and 40% to back-end development.",
+      keywords: [
+        "React.js",
+        "Material-UI",
+        "Redux.js",
+        "Node.js",
+        "60%",
+        "40%",
+      ],
+    },
+    {
+      text: "Launched a responsive SAAS platform, ensuring accessibility, SEO optimization, and seamless user experience by collaborating with the design team.",
+      keywords: ["SAAS", "accessibility", "SEO"],
     },
   ];
   return (

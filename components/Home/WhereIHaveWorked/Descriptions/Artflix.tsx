@@ -9,11 +9,11 @@ export default function Artflix() {
     },
     {
       text: "Translated creative concepts into responsive, user-friendly web interfaces, enhancing multi-device user experiences.",
-      keywords: ["responsive","multi-device "],
+      keywords: ["responsive", "multi-device "],
     },
     {
-      text: "Improved proficiency in HTML, CSS, JavaScript, and React.js, while fostering a deeper understanding of technology and creativity.",
-      keywords: ["React.js","HTML","CSS","JavaScript",],
+      text: "Improved proficiency in React.js, while fostering a deeper understanding of technology and creativity.",
+      keywords: ["React.js"],
     },
   ];
 
@@ -23,10 +23,13 @@ export default function Artflix() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Frontend Developer Intern <span className="text-AAsecondary">@React.js</span>
+            Frontend Developer Intern{" "}
+            <span className="text-AAsecondary">@React.js</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">August 2023 - Septmber 2023</span>
+          <span className="font-mono text-xs text-gray-500">
+            August 2023 - Septmber 2023
+          </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}
@@ -37,7 +40,10 @@ export default function Artflix() {
                 <span
                   className="text-gray-500 sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
-                    __html: getTasksTextWithHighlightedKeyword(item.text, item.keywords),
+                    __html: getTasksTextWithHighlightedKeyword(
+                      item.text,
+                      item.keywords
+                    ),
                   }}
                 ></span>
               </div>

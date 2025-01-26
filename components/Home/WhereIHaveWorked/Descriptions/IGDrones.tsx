@@ -15,8 +15,8 @@ export default function Delbird() {
       keywords: ["reducing load time"],
     },
     {
-      text: "Leveraged modern front-end development techniques to ensure responsive design, improved scalability, and efficient application workflow for IGDrones.",
-      keywords: ["responsive design", "improved scalability"],
+      text: "• Optimized the project loading time by 15%, implemented dynamic tables and CRUD applications",
+      keywords: ["15%", "CRUD"],
     },
   ];
   return (
