@@ -162,10 +162,10 @@ const CompaniesBar = (props) => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="IG Drones"
+            CompanyName="Amgen"
             BarPosition={126}
             BarAvobePosition={385}
-            DescriptionJob="IG Drones"
+            DescriptionJob="Amgen"
             CompanyNameBackgroundColorGreen={[
               false,
               false,

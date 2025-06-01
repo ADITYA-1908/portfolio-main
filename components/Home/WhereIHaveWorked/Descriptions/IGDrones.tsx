@@ -3,11 +3,11 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Delbird() {
   const tasks = [
     {
-      text: "Collaborated on Project IG DRONE, integrating APIs to enhance functionality, utilizing React.js  for seamless data management.",
-      keywords: ["IG DRONE", "React.js", "APIs"],
+      text: "Collaborated on Project Amgen, integrating APIs to enhance functionality, utilizing React.js  for seamless data management.",
+      keywords: ["Amgen", "React.js", "APIs"],
     },
     {
-      text: "Developed and optimized multiple features on the landing page of IG Drones, improving user interface and overall user experience.",
+      text: "Developed and optimized multiple features on the landing page of Amgens, improving user interface and overall user experience.",
       keywords: ["landing page"],
     },
     {

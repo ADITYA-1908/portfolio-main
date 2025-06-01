@@ -8,6 +8,8 @@ export default function AboutMe(props) {
   const highlightWords = [
     "Hello!",
     "Aditya",
+    "frontend",
+    "developer",
     "software",
     "engineer",
     "full-stack",
@@ -75,7 +77,7 @@ export default function AboutMe(props) {
             <div className="font-Header ">
               <span className="text-gray-400 ">
                 {highlightText(
-                  "Hello! My name is Aditya, and I am a passionate software engineer and problem solver, dedicated to creating impactful codes that thrive on the internet. My journey in computer science began in 2022 when I delved into the world of full-stack development. Starting with the basics of HTML, CSS, and JavaScript, I quickly realized the potential of creating dynamic and responsive web applications. As I expanded my knowledge to include frameworks like React and backend technologies such as Node.js and MongoDB, I became passionate about building comprehensive web solutions. This marked the start of my journey as a full-stack developer, driven by a desire to continuously learn and innovate in the ever-evolving tech landscape."
+                  "Hello! My name is Aditya, and I am a passionate frontend developer enthusiast and problem solver, dedicated to creating impactful codes that thrive on the internet. My journey in computer science began in 2022 when I delved into the world of full-stack development. Starting with the basics of HTML, CSS, and JavaScript, I quickly realized the potential of creating dynamic and responsive web applications. As I expanded my knowledge to include frameworks like React and backend technologies such as Node.js and MongoDB, I became passionate about building comprehensive web solutions. This marked the start of my journey as a full-stack developer, driven by a desire to continuously learn and innovate in the ever-evolving tech landscape."
                 )}
               </span>
             </div>
