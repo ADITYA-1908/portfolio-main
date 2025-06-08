@@ -33,7 +33,7 @@ export default function SomethingIveBuilt() {
         <div className="bg-gray-400 h-[0.2px] w-full xl:w-1/3 md:w-1/2"></div>
       </div>
 
-      <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
+      <div className="flex flex-col l:space-y-36 space-y-8 md:space-y-28">
         {/* // ?----------------------------------------------  Project 1 -------------------------------------------------------*/}
         <div
           data-aos="fade-up"
