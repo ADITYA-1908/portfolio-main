@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
+import Amgen from "./Descriptions/Amgen";
 import Artflix from "./Descriptions/Artflix";
 import DomainExpansion from "./Descriptions/DomainExpansion";
-import IGDrones from "./Descriptions/IGDrones";
 import IITD from "./Descriptions/IITD";
 import NISTUNIVERSITY from "./Descriptions/NISTUNIVERSITY";
 import Orufy from "./Descriptions/Orufy";
@@ -19,8 +19,8 @@ export default function WhereIHaveWorked() {
         return <IITD />;
       case "NIST":
         return <NISTUNIVERSITY />;
-      case "IG Drones":
-        return <IGDrones />;
+      case "Amgen":
+        return <Amgen />;
       case "Orufy":
         return <Orufy />;
       case "Artflix ":
