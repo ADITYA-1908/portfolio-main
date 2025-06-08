@@ -34,8 +34,7 @@ export default function SomethingIveBuilt() {
       </div>
 
       <div className="flex flex-col xl:space-y-36 space-y-8 md:space-y-28">
-        {/* // TODO : to here  */}
-        {/* // ?  Project  1 Ens Vision */}
+        {/* // ?----------------------------------------------  Project 1 -------------------------------------------------------*/}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
