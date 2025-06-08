@@ -37,7 +37,7 @@ export default function SomethingIveBuilt() {
         {/* // ?----------------------------------------------  Project 1 -------------------------------------------------------*/}
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
         >
           {/* Left image */}
           <div
