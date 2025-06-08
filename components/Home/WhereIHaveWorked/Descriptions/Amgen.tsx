@@ -1,6 +1,6 @@
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function Delbird() {
+export default function Amgen() {
   const tasks = [
     {
       text: "Collaborated on Project Amgen, integrating APIs to enhance functionality, utilizing React.js  for seamless data management.",

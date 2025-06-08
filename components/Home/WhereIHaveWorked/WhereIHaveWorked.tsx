@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
+import Amgen from "./Descriptions/Amgen";
 import Artflix from "./Descriptions/Artflix";
 import DomainExpansion from "./Descriptions/DomainExpansion";
-import IGDrones from "./Descriptions/IGDrones";
-import IITD from "./Descriptions/IITD";
+// import IITD from "./Descriptions/IITD";
 import NISTUNIVERSITY from "./Descriptions/NISTUNIVERSITY";
 import Orufy from "./Descriptions/Orufy";
 export default function WhereIHaveWorked() {
@@ -15,12 +15,12 @@ export default function WhereIHaveWorked() {
     switch (DescriptionJob) {
       case "DE":
         return <DomainExpansion />;
-      case "IITD":
-        return <IITD />;
+      // case "IITD":
+      //   return <IITD />;
       case "NIST":
         return <NISTUNIVERSITY />;
-      case "IG Drones":
-        return <IGDrones />;
+      case "Amgen":
+        return <Amgen />;
       case "Orufy":
         return <Orufy />;
       case "Artflix ":
@@ -135,7 +135,7 @@ const CompaniesBar = (props) => {
             ]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="IIT Dharwad"
             BarPosition={40}
@@ -143,7 +143,7 @@ const CompaniesBar = (props) => {
             DescriptionJob="IITD"
             CompanyNameBackgroundColorGreen={[false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="NIST University"
