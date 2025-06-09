@@ -92,7 +92,7 @@ export default function SomethingIveBuilt() {
                   rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Nitro Type
+                    Eduverse
                   </span>
                 </a>
               </div>
@@ -157,12 +157,6 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-
-              {/* <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">
-                  In initiation...
-                </span>
-              </div> */}
 
               <Img
                 src={"/Backyard-cafe.png"}
@@ -350,8 +344,218 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
+        {/* // ? ------------------------------------------------ Project  4-----------------------------------------------------*/}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96"
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href="https://backyards-cafe-omega.vercel.app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
 
-        {/* // ? -------------------------------------------- Project 4--------------------------------------------------------*/}
+              <Img
+                src={"/CustoKart.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/CustoKart.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+              <div className="w-full"></div>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">
+                E-Commerce website
+              </span>
+            </div>
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">E-Commers</span>
+                <a
+                  href="https://mern-ecommerce-deploy-to-render-1.onrender.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    CustoKart
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  I developed the{" "}
+                  <span className="text-AAsecondary">CustoKart</span> a
+                  full-stack E-Commerce web application that allows users to
+                  browse, purchase, and review products while enabling admins to
+                  manage inventory and orders. It features user and admin
+                  dashboards, secure authentication, product management, cart
+                  and checkout functionality, and a review system. The platform
+                  ensures a seamless shopping experience with a responsive and
+                  modern UI.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10"> React.js</span>
+                <span className="pr-4 z-10"> Redux.js</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10"> Node.js</span>
+                <span className="pr-4 z-10">Express.js</span>
+                <span className="pr-4 z-10"> MongoDB</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+                <GithubIcon link="https://github.com/ADITYA-1908/E-commers" />
+                <a
+                  href="https://mern-ecommerce-deploy-to-render-1.onrender.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink
+                    url={
+                      "https://mern-ecommerce-deploy-to-render-1.onrender.com/"
+                    }
+                    router={router}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?----------------------------------------------  Project 5 -------------------------------------------------------*/}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a
+                href="https://storage-management-solutions.vercel.app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/myDrive.png"}
+                alt={"Project Screen shot"}
+                className={`w-full h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/myDrive.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">File Manager</span>
+                <a
+                  href="https://storage-management-solutions.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Storelt
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
+                  I had made a website{" "}
+                  <span className="text-AAsecondary">storelt </span>
+                  that replicates and enhances the core functionalities of
+                  Google Drive. The platform features secure user authentication
+                  using Appwrite, allowing users to sign up, log in, and manage
+                  sessions. Users can upload various file types—including
+                  documents, images, videos, and audio—view them in a new tab,
+                  rename, delete, download, or share files with others for easy
+                  collaboration. A dynamic dashboard provides insights into
+                  total and consumed storage, recent uploads, and a summary of
+                  files by type. The app includes global search, sorting
+                  options, and a modern, responsive UI built for accessibility
+                  across devices.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">Shadcn/UI</span>
+                <span className="pr-4 z-10">Chart.js</span>
+                <span className="pr-4 z-10">Appwrite</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/ADITYA-1908/My-drive" />
+                <a
+                  href="https://storage-management-solutions.vercel.app/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={""} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* // ? -------------------------------------------- Project 6--------------------------------------------------------*/}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96 "
@@ -437,7 +641,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ? ------------------------------------------------ Project 5 ------------------------------------------------------*/}
+        {/* // ? ------------------------------------------------ Project 7 ------------------------------------------------------*/}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
