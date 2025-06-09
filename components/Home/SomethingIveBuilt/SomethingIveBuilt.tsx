@@ -356,7 +356,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a
-                href="https://backyards-cafe-omega.vercel.app/"
+                href="https://mern-ecommerce-deploy-to-render-1.onrender.com/"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -521,7 +521,7 @@ export default function SomethingIveBuilt() {
                   that replicates and enhances the core functionalities of
                   Google Drive. The platform features secure user authentication
                   using Appwrite, allowing users to sign up, log in, and manage
-                  sessions. Users can upload various file types—including
+                  sessions. Users can upload various file types including
                   documents, images, videos, and audio—view them in a new tab,
                   rename, delete, download, or share files with others for easy
                   collaboration. A dynamic dashboard provides insights into
