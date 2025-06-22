@@ -8,19 +8,8 @@ export default function SomethingIveBuilt() {
   const projects = [
     {
       id: 1,
-      title: "Eduverse",
-      type: "Learning Platform",
-      description:
-        "I had made a website Eduverse and delivered it using React.js, Vite, Tailwind CSS, Framer Motion, Email.js. Delivered a responsive and visually appealing platform designed to assist college students in accessing Best video lectures and comprehensive roadmaps for various programming languages and domains. The primary objective of this project was to streamline the study process, helping students save time while preparing for exams. This project demonstrated my ability to deliver effective and engaging web solutions tailored to student needs.",
-      stack: ["React", "Vite", "Tailwind", "Framer Motion", "Email js"],
-      image: "/Eduverse.png",
-      liveLink: "https://edverse.vercel.app/",
-      github: "https://github.com/ADITYA-1908/e-learning",
-    },
-    {
-      id: 2,
       title: "The Backyard Cafe",
-      type: "E-Commerce website",
+      type: "E-Commerce",
       description:
         "I had made a website for the Backyard Cafe and delivered it using HTML, CSS, and JavaScript. The project involved creating a responsive and visually appealing design that aligned with the cafe's brand. One notable feature was the integration of an online menu and reservation system, which allowed users to easily browse the menu and book tables online. Additionally, I implemented SEO best practices to improve the cafe's online visibility, resulting in increased web traffic and customer engagement. This project highlighted my ability to deliver functional and attractive web solutions tailored to client needs.",
       stack: ["HTML", "Tailwind", "Java Script", "Firebase", "Twillo"],
@@ -29,7 +18,7 @@ export default function SomethingIveBuilt() {
       github: "https://github.com/ADITYA-1908/Backyards-Cafe",
     },
     {
-      id: 3,
+      id: 2,
       title: "Nitro Type",
       type: "Learning Platform",
       description:
@@ -39,6 +28,25 @@ export default function SomethingIveBuilt() {
       liveLink: "https://nitro-typee.vercel.app/",
       github: "https://github.com/ADITYA-1908/nitro-type",
     },
+    {
+      id: 3,
+      title: "Tomato",
+      type: "E-Commers",
+      description:
+        "This is a comprehensive full-stack food ordering platform built using React.js (Vite), MongoDB Atlas, Node.js, and Express.js. The application features a modern, responsive UI with a user-friendly interface for customers and a robust admin panel for order and menu management. It integrates Stripe for secure online payments and offers essential features like user authentication, shopping cart, and real-time order tracking. This project highlights my ability to create scalable, end-to-end web solutions with real-world functionality.",
+      stack: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "Tailwind CSS",
+      ],
+      image: "/food-delivery.png",
+      liveLink: "https://fooddeliveryapp-frontend-m52c.onrender.com/",
+      github: "https://github.com/ADITYA-1908/Food-delivery",
+    },
+
     {
       id: 4,
       title: "CustoKart",
