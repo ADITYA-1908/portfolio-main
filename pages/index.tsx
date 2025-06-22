@@ -108,7 +108,8 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Aditya - Software Engineer",
+    // title: "Aditya - Software Engineer",
+    title: "Aditya",
     description: `I've been working on Software development. Get in touch with me to know more.`,
     image: "/mg.png",
     type: "website",
