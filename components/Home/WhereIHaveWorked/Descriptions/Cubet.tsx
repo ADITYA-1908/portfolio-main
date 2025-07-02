@@ -1,13 +1,13 @@
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function Amgen() {
+export default function Cubet() {
   const tasks = [
     {
-      text: "Collaborated on Project Amgen, integrating APIs to enhance functionality, utilizing React.js  for seamless data management.",
-      keywords: ["Amgen", "React.js", "APIs"],
+      text: "Collaborated on Project Cubet, integrating APIs to enhance functionality, utilizing React.js  for seamless data management.",
+      keywords: ["Cubet", "React.js", "APIs"],
     },
     {
-      text: "Developed and optimized multiple features on the landing page of Amgens, improving user interface and overall user experience.",
+      text: "Developed and optimized multiple features on the landing page of Cubets, improving user interface and overall user experience.",
       keywords: ["landing page"],
     },
     {

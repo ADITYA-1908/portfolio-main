@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import Amgen from "./Descriptions/Amgen";
 import Artflix from "./Descriptions/Artflix";
+import Cubet from "./Descriptions/Cubet";
 import DomainExpansion from "./Descriptions/DomainExpansion";
 import IITD from "./Descriptions/IITD";
 import NISTUNIVERSITY from "./Descriptions/NISTUNIVERSITY";
@@ -19,8 +19,8 @@ export default function WhereIHaveWorked() {
         return <IITD />;
       case "NIST":
         return <NISTUNIVERSITY />;
-      case "Amgen":
-        return <Amgen />;
+      case "Cubet":
+        return <Cubet />;
       case "Orufy":
         return <Orufy />;
       case "Artflix ":
@@ -162,10 +162,10 @@ const CompaniesBar = (props) => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="Amgen"
+            CompanyName="Cubet"
             BarPosition={126}
             BarAvobePosition={385}
-            DescriptionJob="Amgen"
+            DescriptionJob="Cubet"
             CompanyNameBackgroundColorGreen={[
               false,
               false,
