@@ -48,23 +48,16 @@ export default function SomethingIveBuilt() {
     },
 
     {
-      id: 4,
-      title: "CustoKart",
-      type: "E-Commerce",
-      description:
-        "I developed the CustoKart a full-stack E-Commerce web application that allows users to browse, purchase, and review products while enabling admins to manage inventory and orders. It features user and admin dashboards, secure authentication, product management, cart and checkout functionality, and a review system. The platform ensures a seamless shopping experience with a responsive and modern UI.",
-      stack: [
-        "React.js",
-        "Redux.js",
-        "Tailwind CSS",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-      ],
-      image: "/CustoKart.png",
-      liveLink: "https://mern-ecommerce-deploy-to-render-1.onrender.com/",
-      github: "https://github.com/ADITYA-1908/E-commers",
-    },
+  id: 4,
+  title: "Mind Mate",
+  type: "AI To-Do App",
+  description:
+    "Mind Mate is an AI-powered to-do list application that offers smart task suggestions, voice input, and personalized productivity insights. It features secure authentication, full CRUD task management, responsive UI, and integrates GPT-4 for intelligent task categorization, prioritization, and feedback. Built using React.js, Tailwind CSS, Redux Toolkit, and Firebase.",
+  stack: ["React.js", "Tailwind CSS", "Redux Toolkit", "Firebase", "OpenAI GPT-4"],
+  image: "/MindMate.png", 
+  liveLink: "https://mind-mate-lac.vercel.app/",
+  github: "https://github.com/ADITYA-1908/MindMate-Pro",
+},
     {
       id: 5,
       title: "Storelt",
@@ -83,19 +76,9 @@ export default function SomethingIveBuilt() {
       liveLink: "https://storage-management-solutions.vercel.app/",
       github: "https://github.com/ADITYA-1908/My-drive",
     },
-    {
+
+{
       id: 6,
-      title: "Money Map",
-      type: "Expense Tracker",
-      description:
-        "I developed the Money Map an expense tracker app that records your monthly income and spending. It provides insights into graph patterns, enabling users to make informed financial decisions and optimize their budgeting. The project aims to help the user to manage finances and monitor spending patterns efficiently. Tech Stack used for the app were React.js, Tailwind CSS, and Drizzle ORM for managing our database.",
-      stack: ["React", "Tailwind CSS", "Drizzle ORM", "Clerk"],
-      image: "/moneymap.png",
-      liveLink: "",
-      github: "",
-    },
-    {
-      id: 7,
       title: "Alumni Hub",
       type: "Chat App",
       description:
