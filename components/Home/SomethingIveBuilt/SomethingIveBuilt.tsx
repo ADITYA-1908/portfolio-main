@@ -77,17 +77,6 @@ export default function SomethingIveBuilt() {
       github: "https://github.com/ADITYA-1908/My-drive",
     },
 
-{
-      id: 6,
-      title: "Alumni Hub",
-      type: "Chat App",
-      description:
-        "I developed the AlumniHub an online web application designed to help college students connect with alumni for career guidance, networking, and mentorship. The platform enables students to chat with alumni, access optimized job listings, apply for internships, and receive 1:1 mentorship, fostering valuable relationships that support their professional growth. The project provides a seamless user experience and valuable career resources, empowering students to take charge of their career development. Built using React.js for the frontend, Node.js and Express.js for the backend, MongoDB for database management, and AWS for cloud infrastructure, AlumniHub offers a reliable and scalable solution for students.",
-      stack: ["React", "Tailwind CSS", "Twilio", "stream", "Typescript"],
-      image: "/hackme.jpg",
-      liveLink: "",
-      github: "",
-    },
   ];
 
   const router = useRouter();
