@@ -36,11 +36,11 @@ export default function SomethingIveBuilt() {
         "This is a comprehensive full-stack food ordering platform built using React.js (Vite), MongoDB Atlas, Node.js, and Express.js. The application features a modern, responsive UI with a user-friendly interface for customers and a robust admin panel for order and menu management. It integrates Stripe for secure online payments and offers essential features like user authentication, shopping cart, and real-time order tracking. This project highlights my ability to create scalable, end-to-end web solutions with real-world functionality.",
       stack: [
         "React.js",
+        "Tailwind CSS",
         "Node.js",
         "Express.js",
         "MongoDB",
         "Stripe",
-        "Tailwind CSS",
       ],
       image: "/food-delivery.png",
       liveLink: "https://fooddeliveryapp-frontend-m52c.onrender.com/",
@@ -65,12 +65,11 @@ export default function SomethingIveBuilt() {
       description:
         "I had made a website storelt that replicates and enhances the core functionalities of Google Drive. The platform features secure user authentication using Appwrite, allowing users to sign up, log in, and manage sessions. Users can upload various file types including documents, images, videos, and audio—view them in a new tab, rename, delete, download, or share files with others for easy collaboration. A dynamic dashboard provides insights into total and consumed storage, recent uploads, and a summary of files by type. The app includes global search, sorting options, and a modern, responsive UI built for accessibility across devices.",
       stack: [
-        "Next.js",
+        "React.js",
         "Tailwind CSS",
-        "TypeScript",
         "Shadcn/UI",
-        "Chart.js",
-        "Appwrite",
+        "Node.js",
+        "Express.js",
       ],
       image: "/myDrive.png",
       liveLink: "https://storage-management-solutions.vercel.app/",
