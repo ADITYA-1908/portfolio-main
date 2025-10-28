@@ -2,15 +2,15 @@ import ArrowIcon from "../../../components/Icons/ArrowIcon";
 import Img from "../../../components/smallComp/image/Img";
 export default function AboutMe(props) {
   const technologies = [
-    ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Express.js"],
-    ["Node.js", "Framer Motion", "Bootstrap", "MongoDB"],
+    ["React.js", "Next.js","JavaScript (ES6+)", "TypeScript"],
+    ["Express.js","Node.js", "Firebase", "MongoDB"],
   ];
   const highlightWords = [
     "Hello!",
     "Aditya",
     "frontend",
     "developer",
-    "software",
+    "Software",
     "engineer",
     "full-stack",
     "developer",

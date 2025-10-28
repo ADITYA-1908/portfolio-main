@@ -71,7 +71,7 @@ const CompaniesBar = (props) => {
   const [barPosition, setBarPosition] = React.useState<Number>(-8); // Green bar position by the default it's -20px
   const [barAbovePosition, setBarAbovePosition] = React.useState<Number>(0);
   const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] =
-    React.useState<boolean[]>([true, false, false, false, false, false, false]);
+    React.useState<boolean[]>([true, false, false, false, false, false]);
   const CompanyButton = (props) => {
     return (
      <button
@@ -103,9 +103,9 @@ const CompaniesBar = (props) => {
        sm:justify-center items-start sm:items-center"
     >
       {/* // ? left bar Holder */}
-      {/* add 48 to adjust the height like last bar postion is 213 so 213+48=261 md:h-[216px] */}
+      {/* add 48 to adjust the height like last bar postion is 213 so 213+48=261 md:h-[266px] */}
       <div
-        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[300px] translate-y-1 md:w-0.5  
+        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[256px] translate-y-1 md:w-0.5  
         rounded md:order-1 order-2  "
       >
         {/* // ? animated left bar */}
@@ -124,7 +124,7 @@ const CompaniesBar = (props) => {
             BarPosition={-10}
             BarAvobePosition={1}
             DescriptionJob="SSPvtLtd"
-            CompanyNameBackgroundColorGreen={[true, false, false, false, false, false, false]}
+            CompanyNameBackgroundColorGreen={[true, false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
@@ -140,7 +140,7 @@ const CompaniesBar = (props) => {
               false,
               false,
               false,
-              false,
+            
             ]}
             setDescriptionJob={props.setDescriptionJob}
           />
@@ -166,7 +166,7 @@ const CompaniesBar = (props) => {
               true,
               false,
               false,
-              false,
+            
             ]}
             setDescriptionJob={props.setDescriptionJob}
           />
@@ -183,7 +183,7 @@ const CompaniesBar = (props) => {
               false,
               true,
               false,
-              false,
+           
             ]}
             setDescriptionJob={props.setDescriptionJob}
           />
@@ -200,11 +200,11 @@ const CompaniesBar = (props) => {
               false,
               false,
               true,
-              false,
+           
             ]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={6}
             CompanyName="Artflix"
            BarPosition={258}
@@ -220,7 +220,7 @@ const CompaniesBar = (props) => {
               true,
             ]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
           {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={7}
             CompanyName="Fantasia SME"

@@ -23,13 +23,25 @@ export default function SomethingIveBuilt() {
       type: "Learning Platform",
       description:
         "I developed a website using cutting-edge technologies like Next.js, and Algorithms. This project enhances typing skills by tracking progress and providing scores based on speed and accuracy. It helps users improve their typing efficiency through round-by-round performance analysis and detailed statistics, making it easier to achieve professional typing standards of at least 40 WPM, essential for workplace efficiency.",
-      stack: ["Next.js", "Tailwind CSS", "Framer Motion", "Algorithms"],
+      stack: ["Next.js", "Tailwind CSS", "TypeScript", "Algorithms"],
       image: "/nitro-type.png",
       liveLink: "https://nitro-typee.vercel.app/",
       github: "https://github.com/ADITYA-1908/nitro-type",
     },
     {
-      id: 3,
+  id: 3,
+  title: "JSON Tree Visualizer",
+  type: "Frontend Web Application",
+  description:
+    "An interactive web application built with React and React Flow that visualizes JSON data as a hierarchical, color-coded tree structure. It supports JSON validation, path-based search, and smooth visualization, helping developers easily explore and understand complex JSON data.",
+  stack: ["React.js", "React Flow", "Tailwind CSS", "JavaScript (ES6+)"],
+  image: "/json-tree-visualizer.png",
+  liveLink: "https://json-visualizer-gold.vercel.app/",
+  github: "https://github.com/ADITYA-1908/JSON-Visualizer",
+},
+
+    {
+      id: 4,
       title: "Tomato",
       type: "E-Commers",
       description:
@@ -48,7 +60,7 @@ export default function SomethingIveBuilt() {
     },
 
     {
-  id: 4,
+  id: 5,
   title: "Mind Mate",
   type: "AI To-Do App",
   description:
@@ -59,7 +71,7 @@ export default function SomethingIveBuilt() {
   github: "https://github.com/ADITYA-1908/MindMate-Pro",
 },
     {
-      id: 5,
+      id: 6,
       title: "Storelt",
       type: "File Manager",
       description:
