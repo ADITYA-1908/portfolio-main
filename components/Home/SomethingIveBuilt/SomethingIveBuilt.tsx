@@ -28,18 +28,17 @@ export default function SomethingIveBuilt() {
       liveLink: "https://nitro-typee.vercel.app/",
       github: "https://github.com/ADITYA-1908/nitro-type",
     },
-    {
+{
   id: 3,
   title: "JSON Tree Visualizer",
   type: "Frontend Web Application",
   description:
-    "An interactive web application built with React and React Flow that visualizes JSON data as a hierarchical, color-coded tree structure. It supports JSON validation, path-based search, and smooth visualization, helping developers easily explore and understand complex JSON data.",
+    "An advanced interactive web application built with React and React Flow that visualizes JSON data as a hierarchical, color-coded tree structure. It features real-time JSON validation, path-based search, and intuitive visualization that helps developers analyze complex data structures effortlessly. The project emphasizes clean UI design, modular architecture, and smooth navigation using Tailwind CSS, making it both a practical tool and a showcase of frontend engineering skills.",
   stack: ["React.js", "React Flow", "Tailwind CSS", "JavaScript (ES6+)"],
   image: "/JsonTree.png",
   liveLink: "https://json-visualizer-gold.vercel.app/",
   github: "https://github.com/ADITYA-1908/JSON-Visualizer",
 },
-
     {
       id: 4,
       title: "Tomato",
