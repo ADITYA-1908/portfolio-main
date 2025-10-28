@@ -35,7 +35,7 @@ export default function SomethingIveBuilt() {
   description:
     "An interactive web application built with React and React Flow that visualizes JSON data as a hierarchical, color-coded tree structure. It supports JSON validation, path-based search, and smooth visualization, helping developers easily explore and understand complex JSON data.",
   stack: ["React.js", "React Flow", "Tailwind CSS", "JavaScript (ES6+)"],
-  image: "/jsonTree.png",
+  image: "/JsonTree.png",
   liveLink: "https://json-visualizer-gold.vercel.app/",
   github: "https://github.com/ADITYA-1908/JSON-Visualizer",
 },
