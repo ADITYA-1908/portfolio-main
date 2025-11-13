@@ -1,5 +1,5 @@
+import { IconType } from "react-icons";
 import {
-  IconType,
   SiBootstrap,
   SiCss3,
   SiExpress,
