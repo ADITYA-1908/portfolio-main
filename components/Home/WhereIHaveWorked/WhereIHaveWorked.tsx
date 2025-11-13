@@ -23,10 +23,10 @@ export default function WhereIHaveWorked() {
     { name: "Tailwind CSS", Icon: SiTailwindcss, color: "text-teal-400" },
     { name: "JavaScript", Icon: SiJavascript, color: "text-yellow-400" },
     { name: "TypeScript", Icon: SiTypescript, color: "text-blue-600" },
-    { name: "Node.js", Icon: SiNodedotjs, color: "text-green-500" },
-
+    
     { name: "React.js", Icon: SiReact, color: "text-sky-400" },
     { name: "Next.js", Icon: SiNextdotjs, color: "text-gray-200" },
+    { name: "Node.js", Icon: SiNodedotjs, color: "text-green-500" },
     { name: "Express.js", Icon: SiExpress, color: "text-gray-300" },
     { name: "MongoDB", Icon: SiMongodb, color: "text-green-600" },
     { name: "Firebase", Icon: SiFirebase, color: "text-yellow-500" },
