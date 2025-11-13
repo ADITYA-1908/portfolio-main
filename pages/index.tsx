@@ -168,7 +168,7 @@ export default function Home() {
           ) : (
             <></>
           )}
-          {/* {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>} */}
+          {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
