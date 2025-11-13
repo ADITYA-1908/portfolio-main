@@ -1,4 +1,5 @@
 import {
+  IconType,
   SiBootstrap,
   SiCss3,
   SiExpress,
@@ -16,22 +17,23 @@ import {
 } from "react-icons/si";
 
 export default function WhereIHaveWorked() {
-  const tech = [
-    { name: "HTML", icon: <SiHtml5 className="text-orange-500" /> },
-    { name: "CSS", icon: <SiCss3 className="text-blue-500" /> },
-    { name: "Bootstrap", icon: <SiBootstrap className="text-purple-600" /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
-    { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
-    { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
-    
-    { name: "React.js", icon: <SiReact className="text-sky-400" /> },
-    { name: "Next.js", icon: <SiNextdotjs className="text-gray-200" /> },
-    { name: "Node.js", icon: <SiNodedotjs className="text-green-500" /> },
-    { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
-    { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
-    { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
-    { name: "GitHub", icon: <SiGithub className="text-gray-200" /> },
-    { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
+
+  const tech: { name: string; icon: IconType; color: string }[] = [
+    { name: "HTML", icon: SiHtml5, color: "text-orange-500" },
+    { name: "CSS", icon: SiCss3, color: "text-blue-500" },
+    { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-600" },
+    { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-teal-400" },
+    { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
+    { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
+    { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
+
+    { name: "React.js", icon: SiReact, color: "text-sky-400" },
+    { name: "Next.js", icon: SiNextdotjs, color: "text-gray-200" },
+    { name: "Express.js", icon: SiExpress, color: "text-gray-300" },
+    { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
+    { name: "Firebase", icon: SiFirebase, color: "text-yellow-500" },
+    { name: "GitHub", icon: SiGithub, color: "text-gray-200" },
+    { name: "Postman", icon: SiPostman, color: "text-orange-500" },
   ];
 
   return (
@@ -44,14 +46,15 @@ export default function WhereIHaveWorked() {
         My Tech Stack
       </h2>
 
-      {/* EXACT GRID: 7 per row on large screens */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-10">
         {tech.map((item, index) => (
           <div
             key={index}
             className="flex flex-col items-center space-y-2 hover:scale-110 duration-300"
           >
-            <div className="text-5xl">{item.icon}</div>
+            <div className="text-5xl">
+              <item.icon className={item.color} />
+            </div>
             <span className="text-gray-300 text-sm font-medium">{item.name}</span>
           </div>
         ))}
