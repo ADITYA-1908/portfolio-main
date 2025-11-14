@@ -162,7 +162,7 @@ export default function SomethingIveBuilt() {
                     <a
                       href={project.liveLink}
                       target="_blank"
-                      rel="noopener noreferrer"
+                     rel="noreferrer"
                     >
                       <span className="md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                         {project.title}
