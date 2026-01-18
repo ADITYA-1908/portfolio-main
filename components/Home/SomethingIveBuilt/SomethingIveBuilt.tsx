@@ -73,12 +73,11 @@ export default function SomethingIveBuilt() {
       id: 6,
       title: "Storelt",
       type: "File Manager",
-      description:
-        "I had made a website storelt that replicates and enhances the core functionalities of Google Drive. The platform features secure user authentication using Appwrite, allowing users to sign up, log in, and manage sessions. Users can upload various file types including documents, images, videos, and audio—view them in a new tab, rename, delete, download, or share files with others for easy collaboration. A dynamic dashboard provides insights into total and consumed storage, recent uploads, and a summary of files by type. The app includes global search, sorting options, and a modern, responsive UI built for accessibility across devices.",
+      description:"Storelt is a cloud-based file management platform inspired by Google Drive, designed to provide secure and efficient file storage and collaboration. The application uses Appwrite for user authentication, enabling safe sign-up, login, and session management. File uploads are handled using Multer on the backend, which processes multipart/form-data and securely transfers files to Cloudinary for cloud storage and optimized delivery. Users can upload documents, images, videos, and audio files, view them in new tabs, rename, delete, download, and share files with others. The platform features a dynamic dashboard displaying total and used storage, recent uploads, and file-type analytics, along with global search debouncing.",
       stack: [
         "React.js",
         "Tailwind CSS",
-        "Shadcn/UI",
+        "Cloudinary",
         "Node.js",
         "Express.js",
       ],
