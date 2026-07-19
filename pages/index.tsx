@@ -13,6 +13,7 @@ import Maintenance from "../components/Home/Maintenance/Maintenance";
 import MyName from "../components/Home/MyName/MyName";
 import SocialMediaArround from "../components/Home/SocialMediaArround/SocialMediaArround";
 import SomethingIveBuilt from "../components/Home/SomethingIveBuilt/SomethingIveBuilt";
+import TechStack from "../components/Home/TechStack/TechStack";
 import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCantBeReached";
 import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 
@@ -169,6 +170,7 @@ export default function Home() {
             <></>
           )}
           {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
+          {context.sharedState.finishedLoading ? <TechStack /> : <></>}
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (

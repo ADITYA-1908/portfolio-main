@@ -2,36 +2,55 @@ import ArrowIcon from "../../../components/Icons/ArrowIcon";
 import Img from "../../../components/smallComp/image/Img";
 export default function AboutMe(props) {
   const technologies = [
-    ["React.js", "Next.js","JavaScript (ES6+)", "TypeScript"],
-    ["Express.js","Node.js", "Firebase", "MongoDB"],
+    ["Angular", "React.js", "Next.js", "TypeScript"],
+    ["Node.js", "Express.js", "MongoDB", "GraphQL"],
   ];
   const highlightWords = [
-    "Hello!",
     "Aditya",
-    "frontend",
-    "developement",
+    "Basantia",
+    "Associate",
     "Software",
-    "engineer",
-    "full-stack",
-    "developer",
-    "2022",
-    "backend",
-    "HTML",
-    "CSS",
-    "JavaScript",
+    "Engineer",
+    "BizViz",
+    "Technologies",
+    "Angular",
+    "TypeScript",
+    "RxJS",
+    "Monaco",
+    "Editor",
+    "MERN",
+    "Stack",
+    "Socket.io",
+    "JWT",
+    "OAuth",
+    "GraphQL",
+    "REST",
+    "Redis-based",
+    "Razorpay",
     "React",
+    "Next.js",
     "Node.js",
+    "Express.js",
     "MongoDB",
-    "innovative",
-    "user-friendly",
-    "Startup",
-    "high-quality",
-    "positive impact",
+    "Tailwind",
+    "CSS",
+    "Java",
+    "Spring",
+    "Boot",
+    "Microservices",
+    "System",
+    "Design",
+  ];
+  const paragraphs = [
+    "Hi, I'm Aditya Basantia, an Associate Software Engineer based in Bangalore, India, passionate about building scalable, high-performance web applications.",
+    "I currently work at BizViz Technologies, where I develop enterprise-grade applications using Angular, TypeScript, RxJS, and Monaco Editor. Previously, I worked as a Full Stack Developer Intern, building production-ready applications with the MERN Stack, GraphQL, REST APIs, Redis, Socket.io, JWT authentication, and Razorpay integration.",
+    "I enjoy creating clean, reusable, and efficient software—from responsive frontend interfaces to scalable backend services. Along the way, I've built several full-stack projects, including an E-Commerce Platform, a cloud-based file management system, and this portfolio website.",
+    "I'm continuously expanding my skills in Java, Spring Boot, Microservices, Data Structures & Algorithms, and System Design. My goal is to become a well-rounded Full Stack Software Engineer and contribute to building impactful products that solve real-world problems.",
   ];
   // Function to highlight specific words in a given text
   const highlightText = (text) => {
     return text.split(" ").map((word, index) => {
-      const cleanedWord = word.replace(/[.,]/g, ""); // Clean punctuation for matching
+      const cleanedWord = word.replace(/^[^\w]+|[^\w]+$/g, "");
       if (highlightWords.includes(cleanedWord)) {
         return (
           <span key={index} className="text-AAsecondary">
@@ -74,20 +93,11 @@ export default function AboutMe(props) {
 
         <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 ">
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
-            <div className="font-Header ">
-              <span className="text-gray-400 ">
-                {highlightText(
-                  "Hello! My name is Aditya, and I am a passionate Software developement enthusiast and problem solver, dedicated to creating impactful codes that thrive on the internet. My journey in computer science began in 2022 when I delved into the world of full-stack development. Starting with the basics of HTML, CSS, and JavaScript, I quickly realized the potential of creating dynamic and responsive web applications. As I expanded my knowledge to include frameworks like React and backend technologies such as Node.js and MongoDB, I became passionate about building comprehensive web solutions. This marked the start of my journey as a full-stack developer, driven by a desire to continuously learn and innovate in the ever-evolving tech landscape."
-                )}
-              </span>
-            </div>
-            <div className="font-Header ">
-              <span className="text-gray-400 ">
-                {highlightText(
-                  "Since pursuing my engineering degree, my career has spanned diverse industries, allowing me to refine my expertise in both desktop and web development. I am passionate about creating innovative and user-friendly solutions using modern technologies. My experience includes working on impactful projects for Startup companies where I developed a comprehensive website to increase awareness of their services. With a dedication to continuous learning and improvement, I strive to deliver high-quality solutions that make a positive impact."
-                )}
-              </span>
-            </div>
+            {paragraphs.map((paragraph, index) => (
+              <div key={index} className="font-Header">
+                <span className="text-gray-400">{highlightText(paragraph)}</span>
+              </div>
+            ))}
             {/* <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
                 Fast-forward to today, I&apos;ve had the privilege of working at

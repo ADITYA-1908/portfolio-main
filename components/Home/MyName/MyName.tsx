@@ -1,7 +1,5 @@
-import { useRouter } from "next/router";
-import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
+import { motion } from "framer-motion";
 export default function MyName(props: { finishedLoading: boolean }) {
-  const router = useRouter();
   return (
     <div
       className="h-full flex flex-col justify-center
@@ -74,20 +72,22 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a{" "}
-        <span className="text-AAsecondary">Software developement enthusiast</span>,
-        i possess strong problem-solving skills and specialize in crafting
-        exceptional <br className="2xl:block hidden" />
-        digital experiences. My current area of focus is in the{" "}
-        <span className="text-AAsecondary">Full Stack domain</span>, where I
-        actively engage in developing <br className="2xl:block hidden" />
-        and designing immersive{" "}
-        <span className="text-AAsecondary">Web applications</span>. This
-        involves working with{" "}
-        <span className="text-AAsecondary">Responsive Frontend</span> as well as{" "}
-        <span className="text-AAsecondary">Backend</span>.
-        {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
-        front-end components to enable seamless user interactions. */}
+        I&apos;m an{" "}
+        <span className="text-AAsecondary">Associate Software Engineer</span>{" "}
+        passionate about building scalable, high-performance web applications.
+        I specialize in{" "}
+        <span className="text-AAsecondary">
+          Angular, React, Next.js, TypeScript, Node.js, and MongoDB
+        </span>
+        , with experience developing enterprise software, real-time
+        applications, and full-stack products. <br className="2xl:block hidden" />
+        I enjoy turning complex ideas into clean, intuitive user experiences
+        while writing maintainable, scalable code. Currently, I&apos;m deepening my
+        knowledge of{" "}
+        <span className="text-AAsecondary">
+          Java, Spring Boot, Microservices, DSA, and System Design
+        </span>
+        .
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
