@@ -1,27 +1,50 @@
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function IITD() {
+export default function BDBAI() {
   const tasks = [
     {
-      text: "Developed a Java program that takes the source and destination station information from the user and displays the fare and shortest metro route, accompanied by a metro map for better navigation.",
+      text: "Developing enterprise-grade UI modules for the BDB Data Center, enabling management of data connectors, datasets, metadata, and sandboxes, reducing data onboarding effort by 40%.",
       keywords: [
-        "java",
-        "program",
-        "metro",
-        "fare",
-        "shortest",
-        "better navigation",
-        "route",
+        "enterprise-grade UI modules",
+        "BDB Data Center",
+        "data connectors",
+        "datasets",
+        "metadata",
+        "sandboxes",
+        "40%",
       ],
     },
     {
-      text: "Implemented the solution using Graph and Heap data structures, where nodes represent metro stations and edges represent the distance and cost between them.",
-      keywords: ["Graph", "Heap data structures", "nodes", "edges", "cost"],
+      text: "Built UI features for the BDB Kinetic Semantic Layer, allowing users to define business metrics, apply governance rules, and schedule semantic jobs that trigger downstream data pipeline executions.",
+      keywords: [
+        "BDB Kinetic Semantic Layer",
+        "business metrics",
+        "governance rules",
+        "semantic jobs",
+        "data pipeline executions",
+      ],
     },
     {
-      text: "Used algorithms like Dijkstra, BFS, and DFS to determine the shortest path, calculating the fare based on the total distance between stations and displaying the metro route.",
-      keywords: ["Dijkstra", "BFS", "DFS", "calculating", "distance"],
+      text: "Integrated the Monaco Code Editor with SQL auto-completion, syntax highlighting, and query validation, improving query development productivity by 35%.",
+      keywords: [
+        "Monaco Code Editor",
+        "SQL auto-completion",
+        "syntax highlighting",
+        "query validation",
+        "35%",
+      ],
+    },
+    {
+      text: "Developed reusable components using Angular, TypeScript, and RxJS, and optimized performance through lazy loading and efficient state management, reducing page load time by 30%.",
+      keywords: [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "lazy loading",
+        "state management",
+        "30%",
+      ],
     },
   ];
 
@@ -31,12 +54,11 @@ export default function IITD() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Summer Research Intern{" "}
-            <span className="text-AAsecondary">@Java </span>
+            Associate Software Engineer{" "}
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            June 2024 - July 2024
+            Nov 2025 - Present
           </span>
           {/* <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"

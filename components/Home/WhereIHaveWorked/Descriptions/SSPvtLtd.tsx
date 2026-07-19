@@ -2,20 +2,53 @@ import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
 export default function SSPvtLtd() {
-const tasks = [
-  {
-    text: "Developed core features of a Bus Ticket Booking System, including seat selection and booking flow using React.js, integrated seamlessly with Express.js and MongoDB via REST APIs.",
-    keywords: ["Bus Ticket Booking System", "seat selection", "booking flow", "React.js", "Express.js", "MongoDB", "REST APIs"],
-  },
-  {
-    text: "Improved application performance by 15% through optimized state management with Redux.js, ensuring faster and smoother user interactions.",
-    keywords: ["performance", "15%", "state management", "Redux.js", "faster", "smoother"],
-  },
-  {
-    text: "Implemented reusable sections with full CRUD functionality to streamline data operations and enhance maintainability across the application.",
-    keywords: ["reusable sections", "CRUD functionality", "data operations", "maintainability", "application"],
-  },
-];
+  const tasks = [
+    {
+      text: "Developed a full-stack Bus Management System supporting ticket booking, seat reservation, and bus rentals using the MERN Stack, with backend services exposed through GraphQL and REST APIs.",
+      keywords: [
+        "Bus Management System",
+        "ticket booking",
+        "seat reservation",
+        "bus rentals",
+        "MERN Stack",
+        "GraphQL",
+        "REST APIs",
+      ],
+    },
+    {
+      text: "Implemented real-time bus tracking using Socket.io for live communication, Redis (Pub/Sub) for scalable event distribution and location caching, and Mapbox for live route visualization and map rendering.",
+      keywords: [
+        "real-time bus tracking",
+        "Socket.io",
+        "Redis",
+        "Pub/Sub",
+        "location caching",
+        "Mapbox",
+        "live route visualization",
+      ],
+    },
+    {
+      text: "Built secure authentication using JWT and Google OAuth, and integrated the Razorpay Payment Gateway for secure online payments with encrypted transactions and payment verification.",
+      keywords: [
+        "JWT",
+        "Google OAuth",
+        "Razorpay Payment Gateway",
+        "encrypted transactions",
+        "payment verification",
+      ],
+    },
+    {
+      text: "Improved application performance by 15% through optimized Redux state management, reusable custom React hooks, list virtualization, and MongoDB indexing for faster database queries.",
+      keywords: [
+        "performance",
+        "15%",
+        "Redux",
+        "custom React hooks",
+        "list virtualization",
+        "MongoDB indexing",
+      ],
+    },
+  ];
 
   return (
     <>
@@ -24,11 +57,11 @@ const tasks = [
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
             Full Stack Developer Intern{" "}
-            <span className="text-AAsecondary">@MERN Stack </span>
+
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            July 2025 - Present
+            May 2025 - Nov 2025
           </span>
           {/* <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"

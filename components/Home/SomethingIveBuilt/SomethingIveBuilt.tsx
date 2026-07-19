@@ -6,41 +6,8 @@ import Img from "../../smallComp/image/Img";
 
 export default function SomethingIveBuilt() {
   const projects = [
-    {
+     {
       id: 1,
-      title: "The Backyard Cafe",
-      type: "E-Commerce",
-      description:
-        "I had made a website for the Backyard Cafe and delivered it using HTML, CSS, and JavaScript. The project involved creating a responsive and visually appealing design that aligned with the cafe's brand. One notable feature was the integration of an online menu and reservation system, which allowed users to easily browse the menu and book tables online. Additionally, I implemented SEO best practices to improve the cafe's online visibility, resulting in increased web traffic and customer engagement. This project highlighted my ability to deliver functional and attractive web solutions tailored to client needs.",
-      stack: ["HTML", "Tailwind", "Java Script", "Firebase", "Twillo"],
-      image: "/Backyard-cafe.png",
-      liveLink: "https://backyards-cafe-omega.vercel.app/",
-      github: "https://github.com/ADITYA-1908/Backyards-Cafe",
-    },
-    {
-      id: 2,
-      title: "Nitro Type",
-      type: "Learning Platform",
-      description:
-        "I developed a website using cutting-edge technologies like Next.js, and Algorithms. This project enhances typing skills by tracking progress and providing scores based on speed and accuracy. It helps users improve their typing efficiency through round-by-round performance analysis and detailed statistics, making it easier to achieve professional typing standards of at least 40 WPM, essential for workplace efficiency.",
-      stack: ["Next.js", "Tailwind CSS", "TypeScript", "Algorithms"],
-      image: "/nitro-type.png",
-      liveLink: "https://nitro-typee.vercel.app/",
-      github: "https://github.com/ADITYA-1908/nitro-type",
-    },
-{
-  id: 3,
-  title: "JSON Tree Visualizer",
-  type: "Frontend Web Application",
-  description:
-    "An advanced interactive web application built with React and React Flow that visualizes JSON data as a hierarchical, color-coded tree structure. It features real-time JSON validation, path-based search, and intuitive visualization that helps developers analyze complex data structures effortlessly. The project emphasizes clean UI design, modular architecture, and smooth navigation using Tailwind CSS, making it both a practical tool and a showcase of frontend engineering skills.",
-  stack: ["React.js", "React Flow", "Tailwind CSS", "JavaScript (ES6+)"],
-  image: "/JsonTree.png",
-  liveLink: "https://json-visualizer-gold.vercel.app/",
-  github: "https://github.com/ADITYA-1908/JSON-Visualizer",
-},
-    {
-      id: 4,
       title: "Tomato",
       type: "E-Commers",
       description:
@@ -59,18 +26,18 @@ export default function SomethingIveBuilt() {
     },
 
     {
-  id: 5,
-  title: "Mind Mate",
-  type: "AI To-Do App",
-  description:
-    "Mind Mate is an AI-powered to-do list application that offers smart task suggestions, voice input, and personalized productivity insights. It features secure authentication, full CRUD task management, responsive UI, and integrates GPT-4 for intelligent task categorization, prioritization, and feedback. Built using React.js, Tailwind CSS, Redux Toolkit, and Firebase.",
-  stack: ["React.js", "Tailwind CSS", "Redux Toolkit", "Firebase", "OpenAI GPT-4"],
-  image: "/MindMate.png", 
-  liveLink: "https://mind-mate-lac.vercel.app/",
-  github: "https://github.com/ADITYA-1908/MindMate-Pro",
-},
+      id: 2,
+      title: "Mind Mate",
+      type: "AI To-Do App",
+      description:
+        "Mind Mate is an AI-powered to-do list application that offers smart task suggestions, voice input, and personalized productivity insights. It features secure authentication, full CRUD task management, responsive UI, and integrates GPT-4 for intelligent task categorization, prioritization, and feedback. Built using React.js, Tailwind CSS, Redux Toolkit, and Firebase.",
+      stack: ["React.js", "Tailwind CSS", "Redux Toolkit", "Firebase", "OpenAI GPT-4"],
+      image: "/MindMate.png", 
+      liveLink: "https://mind-mate-lac.vercel.app/",
+      github: "https://github.com/ADITYA-1908/MindMate-Pro",
+    },
     {
-      id: 6,
+      id: 3,
       title: "Storelt",
       type: "File Manager",
       description:"Storelt is a cloud-based file management platform inspired by Google Drive, designed to provide secure and efficient file storage and collaboration. The application uses Appwrite for user authentication, enabling safe sign-up, login, and session management. File uploads are handled using Multer on the backend, which processes multipart/form-data and securely transfers files to Cloudinary for cloud storage and optimized delivery. Users can upload documents, images, videos, and audio files, view them in new tabs, rename, delete, download, and share files with others. The platform features a dynamic dashboard displaying total and used storage, recent uploads, and file-type analytics, along with global search debouncing.",
@@ -85,6 +52,39 @@ export default function SomethingIveBuilt() {
       liveLink: "https://storage-management-solutions.vercel.app/",
       github: "https://github.com/ADITYA-1908/My-drive",
     },
+    {
+      id: 4,
+      title: "The Backyard Cafe",
+      type: "E-Commerce",
+      description:
+        "I had made a website for the Backyard Cafe and delivered it using HTML, CSS, and JavaScript. The project involved creating a responsive and visually appealing design that aligned with the cafe's brand. One notable feature was the integration of an online menu and reservation system, which allowed users to easily browse the menu and book tables online. Additionally, I implemented SEO best practices to improve the cafe's online visibility, resulting in increased web traffic and customer engagement. This project highlighted my ability to deliver functional and attractive web solutions tailored to client needs.",
+      stack: ["HTML", "Tailwind", "Java Script", "Firebase", "Twillo"],
+      image: "/Backyard-cafe.png",
+      liveLink: "https://backyards-cafe-omega.vercel.app/",
+      github: "https://github.com/ADITYA-1908/Backyards-Cafe",
+    },
+    {
+      id: 5,
+      title: "Nitro Type",
+      type: "Learning Platform",
+      description:
+        "I developed a website using cutting-edge technologies like Next.js, and Algorithms. This project enhances typing skills by tracking progress and providing scores based on speed and accuracy. It helps users improve their typing efficiency through round-by-round performance analysis and detailed statistics, making it easier to achieve professional typing standards of at least 40 WPM, essential for workplace efficiency.",
+      stack: ["Next.js", "Tailwind CSS", "TypeScript", "Algorithms"],
+      image: "/nitro-type.png",
+      liveLink: "https://nitro-typee.vercel.app/",
+      github: "https://github.com/ADITYA-1908/nitro-type",
+    },
+{
+  id: 6,
+  title: "JSON Tree Visualizer",
+  type: "Frontend Web Application",
+  description:
+    "An advanced interactive web application built with React and React Flow that visualizes JSON data as a hierarchical, color-coded tree structure. It features real-time JSON validation, path-based search, and intuitive visualization that helps developers analyze complex data structures effortlessly. The project emphasizes clean UI design, modular architecture, and smooth navigation using Tailwind CSS, making it both a practical tool and a showcase of frontend engineering skills.",
+  stack: ["React.js", "React Flow", "Tailwind CSS", "JavaScript (ES6+)"],
+  image: "/JsonTree.png",
+  liveLink: "https://json-visualizer-gold.vercel.app/",
+  github: "https://github.com/ADITYA-1908/JSON-Visualizer",
+}
 
   ];
 

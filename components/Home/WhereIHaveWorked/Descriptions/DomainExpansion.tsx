@@ -4,16 +4,43 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function DomainExpansion() {
   const tasks = [
     {
-      text: "Played a key role in developing a responsive SAAS platform by seamlessly integrating APIs and converting Figma designs into functional code, enhancing collaboration between clients and agencies.",
-      keywords: ["SAAS", "APIs", "Figma"],
+      text: "Developed responsive React.js interfaces by translating Figma designs into reusable, production-ready components and integrating APIs for a seamless user experience.",
+      keywords: [
+        "React.js",
+        "Figma designs",
+        "reusable",
+        "production-ready components",
+        "APIs",
+      ],
     },
     {
-      text: "Improved the platform's usability and functionality, resulting in a 25% boost in user engagement.",
-      keywords: ["25%", "boost"],
+      text: "Integrated Swiggy APIs to display live restaurant listings, menu data, and dynamic restaurant details within the application.",
+      keywords: [
+        "Swiggy APIs",
+        "live restaurant listings",
+        "menu data",
+        "dynamic restaurant details",
+      ],
     },
     {
-      text: "Utilized React.js and Bootstrap to upgrade static web pages, ensuring they were responsive and adaptable to various devices.",
-      keywords: ["React.js", "Bootstrap", "responsive"],
+      text: "Implemented client-side routing with React Router to enable smooth navigation between restaurant listings, menus, and other application views.",
+      keywords: [
+        "React Router",
+        "client-side routing",
+        "smooth navigation",
+        "restaurant listings",
+        "menus",
+      ],
+    },
+    {
+      text: "Improved React application performance through code splitting, lazy loading, and reusable custom hooks, reducing initial load time and creating a faster user experience.",
+      keywords: [
+        "code splitting",
+        "lazy loading",
+        "custom hooks",
+        "initial load time",
+        "faster user experience",
+      ],
     },
   ];
 
@@ -24,7 +51,6 @@ export default function DomainExpansion() {
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
             ReactJS Developer Intern{" "}
-            <span className="text-AAsecondary">@ReactJS</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
